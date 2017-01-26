@@ -6,8 +6,8 @@
 @import url(https://fonts.googleapis.com/css?family=Sigmar+One);
 @import url(https://fonts.googleapis.com/css?family=Bowlby+One+SC);
 
-$main-c: #fff;
-$accent-c: #333;
+$main-c: #d9e1e8;
+$accent-c: #282c37;
 $link-c: $main-c;
 
 * {
@@ -66,7 +66,7 @@ nav {
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #333;
+	background-color:#282c37 ;
 	text-align: center;
 	transform: translateX(-100%);
 	& #nav {
@@ -120,6 +120,7 @@ nav {
 	width: 0;
 	margin: 0 auto;
 	background-color: $main-c;
+
 }
 .nav-link {
 	font-size: 46px;
@@ -215,7 +216,7 @@ h2 {
 	}
 }
 #portfolio {
-	background-color: #333;
+	background-color: #282c37;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
