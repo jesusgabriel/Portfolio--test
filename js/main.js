@@ -95,7 +95,7 @@ $(document.body).ready(function() {
 
 
 			TweenMax.to(header, .5, {
-				backgroundColor: '#333'
+				backgroundColor: '#d9e1e8'
 			})
 		}
 	})
